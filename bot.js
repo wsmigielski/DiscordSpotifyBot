@@ -30,6 +30,6 @@ setInterval(function(err, res) { //This Updates the song every 100 seconds
         currentSong = res.track.track_resource.name + ' - ' + res.track.artist_resource.name;
         client.user.setGame(currentSong);
     });
-}, 100000); //Change the value here to change how often the
+}, 100000); //Change the value here to change how often the song is updated
 
 client.login('user token')
