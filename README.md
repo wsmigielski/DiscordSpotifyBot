@@ -8,8 +8,8 @@ Unzip the file
 Next you will need to find you client token  
 To do this press `Ctrl + Shift + I` while on your discord app
 Then proceed to find the token and copy it  
-![How to find the token](https://drive.google.com/file/d/0B3j8smpInfaRVUpTbzNocTJtUHc/view?usp=sharing)  
+![How to find the token](https://cloud.githubusercontent.com/assets/9850907/23435366/401bf38e-fdff-11e6-872c-127119a2a3d1.png)  
 Put the token in the ' ' where is says user token
-![To see where to put the token click here](https://drive.google.com/file/d/0B3j8smpInfaRaVpiSmswTnduQlU/view)  
+![To see where to put the token click here](https://cloud.githubusercontent.com/assets/9850907/23435333/2cab26f8-fdff-11e6-91d1-c0eac5b1d25d.png)  
 Save the file and `shift right-click` and click on open command window here  
 Then just type `node bot.js` and press enter in the console  
