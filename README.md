@@ -13,3 +13,8 @@ Then proceed to find the token and copy it
 Put the token in the ' ' where it says user token  
 Save the file and `shift right-click` and click on open command window here  
 Then just type `node bot.js` and press enter in the console  
+
+### Known Issues
+
+Bot crashing when user is on a private session on Spotify
+Bot not showing you as the playing the proper game on your discord client
