@@ -32,4 +32,4 @@ setInterval(function(err, res) { //This Updates the song every 60 seconds
     });
 }, 60000); //Change the value here to change how often the song is updated
 
-client.login('user token')
+client.login('User Token')
