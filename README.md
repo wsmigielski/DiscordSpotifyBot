@@ -2,7 +2,7 @@
 Updates the game you are playing to the current song playing on your Spotify app.  
 Just a simple bot I made for fun using https://discord.js.org/#/ and https://github.com/nadavbar/node-spotify-webhelper
 ## How to install
-To install and run this bot you will need the latest nodejs installed https://nodejs.org/en/  
+To install and run this bot you will need the nodejs installed https://nodejs.org/en/  
 You will have to download the DiscordSpotifyBot file https://github.com/wsmigielski/DiscordSpotifyBot/archive/master.zip  
 Unzip the file  
 Next you will need to find you client token  
@@ -18,4 +18,4 @@ Then just type `node bot.js` and press enter in the console
 
 Bot crashing when user is on a private session on Spotify.
 Bot crashing when streamer mode is on within discord.
-The bot will not show you as playing the current song on Spotify on your own discord client, however other people will see it. You also need to clear all your custom set games till the point where it is saying no game detected. 
+The bot will not show you as playing the current song on Spotify on your own discord client, however other people will see it. You also need to clear all your custom set games till the point where it is saying no game detected.
