@@ -17,4 +17,5 @@ Then just type `node bot.js` and press enter in the console
 ### Known Issues
 
 Bot crashing when user is on a private session on Spotify.
-The bot will not show you as playing the current song on Spotify on your own discord client, however other people will see it. 
+Bot crashing when streamer mode is on within discord.
+The bot will not show you as playing the current song on Spotify on your own discord client, however other people will see it. You also need to clear all your custom set games till the point where it is saying no game detected. 
