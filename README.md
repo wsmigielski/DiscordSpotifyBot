@@ -9,7 +9,7 @@ Next you will need to find you client token.
 To do this press `Ctrl + Shift + I` while on your discord app.  
 Then proceed to find the token and copy it.  
 ![How to find the token](https://cloud.githubusercontent.com/assets/9850907/23435366/401bf38e-fdff-11e6-872c-127119a2a3d1.png)  
-![To see where to put the token click here](https://cloud.githubusercontent.com/assets/9850907/23435333/2cab26f8-fdff-11e6-91d1-c0eac5b1d25d.png)   
+<!-- ![To see where to put the token click here](https://cloud.githubusercontent.com/assets/9850907/23435333/2cab26f8-fdff-11e6-91d1-c0eac5b1d25d.png)    -->
 Put the token in the config file "" where it says user token.  
 Save the file and `shift right-click` where the bot.js file is and click on open command window here.
 Type `npm install` and enter to install the required dependencies.
