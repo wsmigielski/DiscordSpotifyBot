@@ -1,0 +1,23 @@
+{
+  "name": "discordspotifybot",
+  "version": "1.0.0",
+  "description": "A bot made with discord.js and node-spotify-webhelper that syncs your status to your current song playing in Spotify",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wsmigielski/DiscordSpotifyBot.git"
+  },
+  "author": "wsmigielski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wsmigielski/DiscordSpotifyBot/issues"
+  },
+  "homepage": "https://github.com/wsmigielski/DiscordSpotifyBot#readme",
+  "dependencies": {
+    "discord.js": "^11.0.0",
+    "node-spotify-webhelper": "0.0.6"
+  }
+}
