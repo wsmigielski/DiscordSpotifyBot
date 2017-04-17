@@ -12,7 +12,7 @@ Then proceed to find the token and copy it.
 ![To see where to put the token click here](https://cloud.githubusercontent.com/assets/9850907/23435333/2cab26f8-fdff-11e6-91d1-c0eac5b1d25d.png)   
 Put the token in the ' ' where it says user token.  
 Save the file and `shift right-click` where the bot.js file is and click on open command window here.
-Type `npm install` to install the required dependencies.
+Type `npm install` and enter to install the required dependencies.
 Then just type `node bot.js` and press enter in the console.
 
 ### Known Issues
