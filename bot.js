@@ -3,6 +3,7 @@ const client = new Discord.Client();
 
 var nodeSpotifyWebHelper = require('node-spotify-webhelper');
 var spotify = new nodeSpotifyWebHelper.SpotifyWebHelper();
+var config = require('./config.json');
 var currentSong;
 
 client.on('ready', () => {
@@ -32,4 +33,4 @@ setInterval(function(err, res) { //This Updates the song every 60 seconds
     });
 }, 60000); //Change the value here to change how often the song is updated
 
-client.login('User Token')
+client.login(config.token)
