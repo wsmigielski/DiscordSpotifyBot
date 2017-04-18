@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/wsmigielski/DiscordSpotifyBot.png?label=ready&title=Ready)](https://waffle.io/wsmigielski/DiscordSpotifyBot)
 # Discord Spotify Bot
 Updates the game you are playing to the current song playing on your Spotify app.  
 Just a simple bot I made for fun using https://discord.js.org/#/ and https://github.com/nadavbar/node-spotify-webhelper
