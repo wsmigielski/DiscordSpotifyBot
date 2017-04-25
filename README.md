@@ -4,7 +4,7 @@ Updates the game you are playing to the current song playing on your Spotify app
 Just a simple bot I made for fun using https://discord.js.org/#/ and https://github.com/nadavbar/node-spotify-webhelper
 ## How to install
 To install and run this bot you will need the nodejs installed https://nodejs.org/en/  
-You will have to download the DiscordSpotifyBot v1.0 folder https://github.com/wsmigielski/DiscordSpotifyBot/archive/v1.1.zip  
+You will have to download the DiscordSpotifyBot v1.0 folder https://github.com/wsmigielski/DiscordSpotifyBot/archive/v1.2.zip  
 Unzip the file.  
 Next you will need to find you client token.  
 To do this press `Ctrl + Shift + I` while on your discord app.  
@@ -14,6 +14,7 @@ Then proceed to find the token and copy it.
 Put the token in the config file "" where it says user token.  
 Firstly you want to run the install.bat file to install all the required dependencies.
 Then just run the run.bat whenever you want to run the bot.
+To exit the bot just use CTRL-C in the Command Prompt where the process is running.
 <!-- Save the file and `shift right-click` where the bot.js file is and click on open command window here.
 Type `npm install` and enter to install the required dependencies.
 Then just type `node bot.js` and press enter in the console. -->
