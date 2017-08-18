@@ -18,7 +18,7 @@ process.on('exit', code => {
   for (i = 0; i < preExit.length; i++) {
     preExit[i](code);
   }
-  client.user.setGame();
+  client.user.setPresence({ game: { name: ' ', type: 0 } });
   process.exit(code);
 });
 
@@ -54,7 +54,7 @@ spotify.getStatus(function(err, res) { //Initially sets your game to the current
   console.info('currently playing:', res.track.artist_resource.name, '-', res.track.track_resource.name);
 
   currentSong = res.track.track_resource.name + ' - ' + res.track.artist_resource.name;
-  client.user.setGame(currentSong);
+  client.user.setPresence({ game: { name: currentSong, type: 0 } });
 });
 
 setInterval(function(err, res) { //This Updates the song every 10 seconds
@@ -64,11 +64,16 @@ setInterval(function(err, res) { //This Updates the song every 10 seconds
     }
     newSong = res.track.track_resource.name + ' - ' + res.track.artist_resource.name;
     if (newSong != currentSong) {
-      client.user.setGame(newSong);
+      client.user.setPresence({ game: { name: newSong, type: 0 } });
       console.info('currently playing:', res.track.artist_resource.name, '-', res.track.track_resource.name);
       currentSong = newSong;
     }
   });
 }, 10000); //Change the value here to change how often the song is updated
+
+
+process.on('unhandledRejection', error => {
+  console.error(`Uncaught Promise Error: \n${error.stack}`);
+});
 
 client.login(config.token)
