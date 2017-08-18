@@ -18,7 +18,7 @@ process.on('exit', code => {
   for (i = 0; i < preExit.length; i++) {
     preExit[i](code);
   }
-  client.user.setPresence({ game: { name: ' ', type: 0 } });
+  client.user.setPresence({ game: { name: null, type: 0 } });
   process.exit(code);
 });
 
