@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/wsmigielski/DiscordSpotifyBot#readme",
   "dependencies": {
-    "discord.js": "^11.0.0",
-    "node-spotify-webhelper": "0.0.6"
+    "discord.js": "^11.2.1",
+    "node-spotify-webhelper": "https://github.com/wsmigielski/node-spotify-webhelper"
   }
 }

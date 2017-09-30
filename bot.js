@@ -54,7 +54,7 @@ spotify.getStatus(function(err, res) { //Initially sets your game to the current
   console.info('currently playing:', res.track.artist_resource.name, '-', res.track.track_resource.name);
 
   currentSong = res.track.track_resource.name + ' - ' + res.track.artist_resource.name;
-  client.user.setPresence({ game: { name: currentSong, type: 0 } });
+  client.user.setGame(currentSong);
 });
 
 setInterval(function(err, res) { //This Updates the song every 10 seconds
@@ -64,7 +64,7 @@ setInterval(function(err, res) { //This Updates the song every 10 seconds
     }
     newSong = res.track.track_resource.name + ' - ' + res.track.artist_resource.name;
     if (newSong != currentSong) {
-      client.user.setPresence({ game: { name: newSong, type: 0 } });
+      client.user.setGame(newSong);
       console.info('currently playing:', res.track.artist_resource.name, '-', res.track.track_resource.name);
       currentSong = newSong;
     }
