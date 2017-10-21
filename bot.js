@@ -17,7 +17,7 @@ process.on('exit', code => {
   for (i = 0; i < preExit.length; i++) {
     preExit[i](code);
   }
-  client.user.setPresence({ game: { name: null, type: 0 } });
+  client.user.setGame(null);
   process.exit(code);
 });
 
@@ -48,7 +48,6 @@ spotify.getStatus(function(err, res) {
   if (err) {
     return console.error(err);
   }
-  console.info(`Logged in as ${client.user.username}!`);
   console.info('currently playing:', res.track.artist_resource.name, '-', res.track.track_resource.name);
 
   currentSong = res.track.track_resource.name + ' - ' + res.track.artist_resource.name;
