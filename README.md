@@ -2,7 +2,7 @@
 # Discord Spotify Bot
 Updates the game you are playing to the current song playing on your Spotify app.  
 Just a simple bot I made for fun using https://discord.js.org/#/ and https://github.com/nadavbar/node-spotify-webhelper
-## How to install
+## How to install Windows
 To install and run this bot you will need the nodejs installed https://nodejs.org/en/  
 You will have to download the DiscordSpotifyBot v1.3.1 folder https://github.com/wsmigielski/DiscordSpotifyBot/archive/v1.3.1.zip  
 Unzip the file.  
