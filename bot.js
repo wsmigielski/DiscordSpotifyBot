@@ -7,6 +7,7 @@ var config = require('./config.json');
 var currentSong, newSong;
 
 // Script for exiting the process is from https://frankl.in/code/before-exit-scripts-in-node-js
+
 let preExit = [];
 
 // Catch exit
@@ -43,8 +44,9 @@ preExit.push(code => {
   console.log('Whoa! Exit code %d, cleaning up...', code);
 });
 
-//Initially sets your game to the current song
-spotify.getStatus(function(err, res) { 
+
+
+spotify.getStatus(function(err, res) { //Initially sets your game to the current song
   if (err) {
     return console.error(err);
   }
@@ -55,8 +57,7 @@ spotify.getStatus(function(err, res) {
   client.user.setGame(currentSong);
 });
 
-//This Updates the song every 10 seconds
-setInterval(function(err, res) { 
+setInterval(function(err, res) { //This Updates the song every 10 seconds
   spotify.getStatus(function(err, res) {
     if (err) {
       return console.error(err);
@@ -68,7 +69,7 @@ setInterval(function(err, res) {
       currentSong = newSong;
     }
   });
-}, 10000 /*Change the value here to change how often the song is updated. Value is in miliseconds*/); 
+}, 10000); //Change the value here to change how often the song is updated
 
 
 process.on('unhandledRejection', error => {
